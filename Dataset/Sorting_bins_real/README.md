@@ -20,4 +20,24 @@ y=np.load("y.npy")</code></pre>
 
 ### x
 
-The variable x contains the time series 
+The variable x contains seven time-series, over 181 time steps, describing 438 products.
+
+These series were pre-processed in order to, per product, use the same 181 time steps for each series. 
+
+x is a numpy array, where the third dimension represents the specific time series. These are, in order:
+<ol>
+  <li>Injection pressure [bar]</li>
+  <li>Screwvolume cc</li>
+  <li>Cavity pressure [bar]</li>
+  <li>Cavity temperature out [°C]</li>
+  <li>Cavity temperature in [°C]</li>
+  <li>Cavity temperature end flow [°C]</li>
+</ol>
+
+### y
+
+The variable y contains two labels for each of the 438 products. These are, in order:
+<ol>
+  <li>Opening distance</li>
+  <li>Valid (boolean)</li>
+</ol>
