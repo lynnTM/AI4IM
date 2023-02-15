@@ -15,7 +15,7 @@ The data can be loaded through the python code:
 x_dict=np.load('x_dict.npy',allow_pickle=True).item()
 y_dict=np.load('y_dict.npy',allow_pickle=True).item()</code></pre>
 
-## Data sctructure
+## Data structure
 
 ### x_dict
 
