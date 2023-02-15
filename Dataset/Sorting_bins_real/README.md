@@ -12,5 +12,12 @@ The data can be loaded through the python code:
 
 <pre><code class="python">import numpy as np
 
+x=np.load("x.npy")
+y=np.load("y.npy")</code></pre>
 
-## Data sctructure
+
+## Data structure
+
+### x
+
+The variable x contains the time series 
