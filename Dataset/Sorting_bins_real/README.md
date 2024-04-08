@@ -28,10 +28,11 @@ x is a numpy array, where the third dimension represents the specific time serie
 <ol>
   <li>Injection pressure [bar]</li>
   <li>Screwvolume cc</li>
-  <li>Cavity pressure [bar]</li>
+  <li>InjectionFlow </li>
   <li>Cavity temperature out [°C]</li>
   <li>Cavity temperature in [°C]</li>
   <li>Cavity temperature end flow [°C]</li>
+  <li>Cavity pressure [bar]</li>
 </ol>
 
 ### y
